@@ -1,3 +1,4 @@
 [*1..100].each do |number|
-  puts number
+  result = number % 5 == 0 ? 'buzz' : number
+  puts result
 end
