@@ -1,12 +1,11 @@
-(1..100).each do |number|
+[*1..100].each do |number|
   if number % 3 == 0 && n % 5 == 0
-  puts "fizzbuzz"
+    puts "fizzbuzz"
   elsif n % 5 == 0
-  puts "buzz"
+    puts "buzz"
   elsif number % 3 == 0
     puts 'fizz'
-  else 
+  else
     puts number
   end
 end
-
