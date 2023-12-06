@@ -1,4 +1,12 @@
 (1..100).each do |number|
-  result = number % 3 == 0 ? 'fizz' : (number % 5 == 0 ? 'buzz' : number)
-  puts result
+  if number % 3 == 0 && n % 5 == 0
+  puts "fizzbuzz"
+  elsif n % 5 == 0
+  puts "buzz"
+  elsif number % 3 == 0
+    puts 'fizz'
+  else 
+    puts number
+  end
 end
+
